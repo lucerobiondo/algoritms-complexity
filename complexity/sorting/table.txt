@@ -1,0 +1,17 @@
+<!-- 
+
+| Algoritmo                  | Mejor caso  | Promedio    | Peor caso   | Espacio   | Estable |
+| -------------------------- | ----------- | ----------- | ----------- | --------- | ------- |
+| **Bubble Sort**            | 𝑂(n)       | 𝑂(n²)      | 𝑂(n²)      | 𝑂(1)     | ✅ Sí    |
+| **Selection Sort**         | 𝑂(n²)      | 𝑂(n²)      | 𝑂(n²)      | 𝑂(1)     | ❌ No    |
+| **Insertion Sort**         | 𝑂(n)       | 𝑂(n²)      | 𝑂(n²)      | 𝑂(1)     | ✅ Sí    |
+| **Merge Sort**             | 𝑂(n log n) | 𝑂(n log n) | 𝑂(n log n) | 𝑂(n)     | ✅ Sí    |
+| **Quick Sort**             | 𝑂(n log n) | 𝑂(n log n) | 𝑂(n²)      | 𝑂(log n) | ❌ No    |
+| **Heap Sort**              | 𝑂(n log n) | 𝑂(n log n) | 𝑂(n log n) | 𝑂(1)     | ❌ No    |
+| **Counting Sort**          | 𝑂(n + k)   | 𝑂(n + k)   | 𝑂(n + k)   | 𝑂(k)     | ✅ Sí    |
+| **Radix Sort**             | 𝑂(nk)      | 𝑂(nk)      | 𝑂(nk)      | 𝑂(n + k) | ✅ Sí    |
+| **Bucket Sort**            | 𝑂(n + k)   | 𝑂(n + k)   | 𝑂(n²)      | 𝑂(n + k) | ✅ Sí    |
+| **Shell Sort**             | 𝑂(n log n) | 𝑂(n^3/2)   | 𝑂(n²)      | 𝑂(1)     | ❌ No    |
+| **Tim Sort** (Python/Java) | 𝑂(n)       | 𝑂(n log n) | 𝑂(n log n) | 𝑂(n)     | ✅ Sí    |
+
+ -->
