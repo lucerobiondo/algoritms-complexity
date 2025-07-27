@@ -20,3 +20,21 @@ relacionado a los métodos sorting.
 ```bash
 node complexity/sorting/methods/{filename}.js
 ```
+
+## Structure
+
+Los archivos relacionados con los algoritmos de estructura creación, modificación, eliminación y búsqueda se encuentran en:
+
+```bash
+cd ./complexity/structure
+```
+
+### Cómo usar
+
+1. Abre una terminal.
+2. Ejecuta el archivo deseado con el siguiente comando:
+
+```bash
+node complexity/structure/{filename}.js
+```
+
