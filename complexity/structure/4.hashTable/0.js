@@ -60,7 +60,7 @@ class HashTable {
     }
 }
 
-const ht = new HashTable();
+/* const ht = new HashTable();
 
 ht.set("apple", 10);
 ht.set("banana", 20);
@@ -72,7 +72,7 @@ ht.set("apple", 15);  // actualizar valor
 console.log(ht.get("apple"));  // 15
 
 ht.delete("banana");
-console.log(ht.get("banana")); // undefined
+console.log(ht.get("banana")); // undefined */
 
 
 //Problema: Crea una tabla hash que guarde estudiantes con su nota. Inserta 3 estudiantes y busca la nota de uno.
@@ -85,3 +85,6 @@ students.set("Luis", 7.0);
 students.set("Maria", 9.2);
 
 console.log(students.get("Luis"));  // 7.0
+
+
+

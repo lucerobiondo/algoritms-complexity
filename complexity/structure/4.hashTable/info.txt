@@ -1,0 +1,12 @@
+| Aspecto                       | ✅ Ventajas                                                                     | ❌ Desventajas                                                                  |
+| ----------------------------- | ------------------------------------------------------------------------------ | ------------------------------------------------------------------------------ |
+| **Tiempo de acceso promedio** | Acceso y búsqueda en tiempo **O(1)** promedio.                                 | En el **peor caso**, puede degradarse a **O(n)** si hay muchas colisiones.     |
+| **Inserción**                 | Muy rápida: también **O(1)** promedio.                                         | Puede requerir **rehashing** (costoso) al alcanzar cierto tamaño.              |
+| **Flexibilidad de claves**    | Permite usar claves complejas (strings, números).                              | Las claves deben poder convertirse en un hash único de forma eficiente.        |
+| **Colisiones**                | Se manejan con chaining o open addressing.                                     | Manejar colisiones agrega **complejidad** al diseño.                           |
+| **Espacio**                   | Espacio constante por entrada, muy eficiente.                                  | Puede haber **espacio desperdiciado** si la tabla es muy grande y poco usada.  |
+| **Orden**                     | Sin orden definido; acceso aleatorio.                                          | No mantiene el orden de inserción ni ordenamiento natural.                     |
+| **Escalabilidad**             | Funciona bien con millones de entradas si está bien dimensionada.              | Mal dimensionada, puede volverse **ineficiente** rápidamente.                  |
+| **Implementación**            | Fácil de implementar de forma básica.                                          | Implementaciones eficientes requieren **buenas funciones hash**.               |
+| **Búsqueda compleja**         | Rápida búsqueda por clave.                                                     | **No es útil** si necesitas búsquedas por rangos u orden (usa BST o arrays).   |
+| **Aplicaciones**              | Ideal para **mapas**, **sets**, **caches**, **indexación**, **lookup rápido**. | No recomendable para estructuras donde el **orden importa** o hay pocos datos. |
